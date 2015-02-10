@@ -10,6 +10,6 @@ La compañía se está planteando trabajar con más formatos, como el QTI, esta 
 
 El material a entregar consta de:
 
-- Documentación de la arquitectura
-- Codigo fuente del sistema y código de prueba
-- Manual de usuario y del sistema
+- Documentación de la arquitectura.
+- Codigo fuente del sistema y código de prueba.
+- Manual de usuario y del sistema.
