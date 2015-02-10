@@ -1,15 +1,10 @@
-Proyecto Trivial5b
-===================
+Trivial0
+=============
 
-Este repositorio se trata de un proyecto educativo para la asignatura de Arquitectura del Software en la [Escuela de Ingeniería 
-Informática] (http://www.ingenieriainformatica.uniovi.es/) de Oviedo.
+Repository for Trivial programs. 
 
-La finalidad de este primer prototipo será transformar las preguntas en formato origen tipo GIFT a formato interno tipo JSON. Se utilizará para ello MongoDB. 
+Software Architecture course - [University of Oviedo](http://www.uniovi.es), 2014-15
 
-La compañía se está planteando trabajar con más formatos, como el QTI, esta ampliación será opcional.
+Author: Jose Emilio Labra Gayo
 
-El material a entregar consta de:
 
-- Documentación de la arquitectura.
-- Codigo fuente del sistema y código de prueba.
-- Manual de usuario y del sistema.
