@@ -7,3 +7,9 @@ Informática] (http://www.ingenieriainformatica.uniovi.es/) de Oviedo.
 La finalidad de este primer prototipo será transformar las preguntas en formato origen tipo GIFT a formato interno tipo JSON. Se utilizará para ello MongoDB. 
 
 La compañía se está planteando trabajar con más formatos, como el QTI, esta ampliación será opcional.
+
+El material a entregar consta de:
+
+- Documentación de la arquitectura
+- Codigo fuente del sistema y código de prueba
+- Manual de usuario y del sistema
