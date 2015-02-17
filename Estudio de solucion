@@ -1,0 +1,14 @@
+*Stakeholders:
+
+	-Responsables NoGame:
+		- Desean aplicacion en etapas para convertir a otros formatos(XML por ejemplo) en el futuro
+		- Aplicacion no necesariamente muy eficiente
+	-Encargados de Creacion de Preguntas
+		- Las preguntas deben estar en formato GIFT
+		- Supervisa la ejecucion de las etapas de generacion del archivo JSON
+	-Desarrolladores Trivial
+		- Creacion de un Parser de GIFT a JSON para las preguntas
+		- Conversion en dos etapas GIFT a formato intermedio y formato intermedio a formato de salida
+		- Garantizar conversion correcta
+
+*Atributos de Calidad
