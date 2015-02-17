@@ -9,6 +9,11 @@
 	-Desarrolladores Trivial
 		- Creacion de un Parser de GIFT a JSON para las preguntas
 		- Conversion en dos etapas GIFT a formato intermedio y formato intermedio a formato de salida
-		- Garantizar conversion correcta
+		
 
 *Atributos de Calidad
+	
+	- Garantizar conversion correcta
+	- Permitir parametros de entrada (nombre de archivo de entrada, formato de datos de entrada,
+					nombre archivo de salida, formato de datos de salida)
+	- Permitir observar datos intermedios
