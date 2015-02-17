@@ -503,4 +503,44 @@ $CATEGORY: Geografía
 ~ Perú
 }
 
+$CATEGORY: Deportes
+::Q73:: ¿A qué equipo del fútbol argentino lo llaman "el Fortín"?{
+~Estudiantes de la plata
+=Velez Sarsfield
+~Atlético Independiente
+}
 
+$CATEGORY: Deportes
+::Q74:: ¿A qué se dedica profesionalmente el exárbitro Prados García?{
+~Profesor
+=Funcionario
+~Albañil
+}
+
+$CATEGORY: Deportes
+::Q75:: ¿A qué se dedica profesionalmente el exárbitro Prados García?{
+~Profesor
+=Funcionario
+~Albañil
+}
+
+$CATEGORY: Deportes
+::Q76:: ¿A quién ganó el Extremadura en la promoción para ascender a Primera en 1995/96?{
+~Murcia
+=Albacete
+~Valencia
+}
+
+$CATEGORY: Deportes
+::Q77:: ¿Con qué deporte relacionas a Manuel Martín Galán?{
+~Esgrima
+=Petanca
+~Tenis
+}
+
+$CATEGORY: Arte y Literatura
+::Q78:: ¿A qué estilo pictórico pertenece José de Ribera?{
+=Barroco
+~Contemporáneo
+~Rupestre
+}
