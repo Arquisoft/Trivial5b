@@ -13,7 +13,7 @@ $CATEROGY: Deportes
 }
 
 $CATEGORY: Deportes
-::Q3:: ¿Cuál es el limite de edad establecido para participar en los Juegos Olímpicos?{
+::Q3:: ¿Cuál es el límite de edad establecido para participar en los Juegos Olímpicos?{
 =Ninguna
 ~80
 ~65
@@ -50,19 +50,19 @@ $CATEGORY: Deportes
 $CATEGORY: Deportes
 ::Q8:: ¿Qué es el Showbol?{
 ~Un deporte similar al baloncesto
-~Un deporte de echibicion similar al balonmano
+~Un deporte de exhibición similar al balonmano
 =Un deporte similar al futbol
 }
 
 $CATEGORY: Deportes
-::Q9:: ¿Quien fue el creado del Rally Paris-Dakar?{
+::Q9:: ¿Quién fue el creador del Rally Paris-Dakar?{
 =Thierry Sabine
 ~Rainiero de Mónaco
 ~Carlos Sainz
 }
 
 $CATEGORY: Deportes
-::Q10:: ¿Cuantas copas de ferias tiene el Valencia C.F. (a 2014)?{
+::Q10:: ¿Cuántas copas de ferias tiene el Valencia C.F. (a 2014)?{
 ~1
 =2
 ~3
@@ -76,7 +76,7 @@ $CATEGORY: Arte y Literatura
 }
 
 $CATEGORY: Arte y Literatura
-::Q12:: ¿En qué año se escribió ' El ingenioso hidalgo don Quijote de la Mancha'?
+::Q12:: ¿En qué año se escribió 'El ingenioso hidalgo don Quijote de la Mancha'?
 ~1590
 ~1600
 =1605
@@ -113,7 +113,7 @@ $CATEGORY: Arte y Literatura
 $CATEGORY: Arte y Literatura
 ::Q17:: ¿De qué estilo es la Catedral de Santa Eulalia de Barcelona?{
 =Gótico
-~Romantico
+~Romántico
 ~Barroco
 }
 
@@ -146,7 +146,7 @@ $CATEGORY: Arte y Literatura
 }
 
 $CATEGORY: Arte y Literatura
-::Q22:: ¿Quien escribio 'Los cuentos de Canterbury'?{
+::Q22:: ¿Quién escribio 'Los cuentos de Canterbury'?{
 ~Francisco de Quevedo
 ~Luis de Gongora
 =Geoffrey Chaucer
@@ -160,7 +160,7 @@ $CATEGORY: Arte y Literatura
 }
 
 $CATEGORY: Arte y Literatura
-::Q24:: ¿Qué arquitecto catalan diseño el parlamento escocés?{
+::Q24:: ¿Qué arquitecto catalán diseño el parlamento escocés?{
 =Enric Miralles
 ~Ricardo Bofill
 ~Oriol Bohigas
@@ -195,7 +195,7 @@ $CATEGORY: Historia
 }
 
 $CATEGORY: Historia
-::Q29:: ¿De que época datan los resto de El Hombre de Pekín?{
+::Q29:: ¿De qué época datan los restos de 'El Hombre de Pekín'?{
 =De entre 250.000 y 500.000 años
 ~De entre 100.000 y 120.000 años
 ~De entro 50.000 y 100.000 años
@@ -203,15 +203,15 @@ $CATEGORY: Historia
 
 $CATEGORY: Historia
 ::Q30:: ¿Quién es Fulgencio Batista?{
-=Un dictador cubano derrocado por la revolucion iniciada por Fidel Castro
-~Uno de los iniciadores de la guerra de independencia cubana
-~El decubridor de Cuba
+=Un dictador cubano derrocado por la revolución iniciada por Fidel Castro
+~Uno de los iniciadores de la Guerra de Independencia cubana
+~El descubridor de Cuba
 }
 
 $CATEGORY: Historia
 ::Q31:: ¿Dónde se fundó el Comité Internacional de la Cruz Roja?{
-~En paris, Francia
-~En Madrid, españa
+~En París, Francia
+~En Madrid, España
 =En Ginebra, Suiza
 }
 
@@ -223,7 +223,7 @@ $CATEGORY: Historia
 }
 
 $CATEGORY: Historia
-::Q33:: ¿Entre que años tuvo lugar la Guerra Civil Española?{
+::Q33:: ¿Entre qué años tuvo lugar la Guerra Civil Española?{
 ~1939-1943
 ~1934-1938
 =1936-1939
@@ -240,7 +240,7 @@ $CATEGORY: Ciencias Naturales
 ::Q35:: ¿Cuál de los cinco sentidos se desarrolla el primero?{
 ~La vista
 =El olfato
-~El oido
+~El oído
 }
 
 $CATEGORY: Ciencias Naturales
@@ -272,7 +272,7 @@ $CATEGORY: Ciencias Naturales
 }
 
 $CATEGORY: Ciencias Naturales
-::Q40:: ¿Qué elemento quiímico tiene un número atómico igual a 1?{
+::Q40:: ¿Qué elemento químico tiene un número atómico igual a 1?{
 =Hidrógeno
 ~Nitrógeno
 ~Carbono
@@ -293,10 +293,10 @@ $CATEGORY: Ciencias Naturales
 }
 
 $CATEGORY: Ciencias Naturales
-::Q43:: ¿Cuántos planetas del sistema solar tienen una superficia líquida?{
+::Q43:: ¿Cuántos planetas del Sistema Solar tienen una superficia líquida?{
 ~La Tierra y Saturno
 ~La Tierra y Marte
-=Solo la Tierra
+=Sólo la Tierra
 }
 
 $CATEGORY: Ciencias Naturales
@@ -328,7 +328,7 @@ $CATEGORY: Espectáculos
 }
 
 $CATEGORY: Espectáculo
-::Q48:: ¿Qué país ha emitido mas ediciones de Gran Hermano?{
+::Q48:: ¿Qué país ha emitido más ediciones de Gran Hermano?{
 ~Italia
 ~Brasil
 =España
@@ -377,7 +377,7 @@ $CATEGORY: Espectáculo
 }
 
 $CATEGORY: Espectáculo
-::Q55:: ¿Quién interpreta a la hernoia antagonista en Hancock, la película estrenada en Julio de 2008?{
+::Q55:: ¿Quién interpreta a la heroína antagonista en Hancock, la película estrenada en Julio de 2008?{
 =Charlize Theron
 ~Catherine Kellner
 ~Anna Thomson
@@ -391,7 +391,7 @@ $CATEGORY: Espectáculo
 }
 
 $CATEGORY: Espectáculo
-::Q57:: Quien ha ganado 'Superviviente: Perdid en Honduras 2009'?{
+::Q57:: ¿Quién ha ganado 'Supervivientes: Perdidos en Honduras 2009'?{
 ~Ivonne Orssini
 ~Santi Abad
 =Maite Zúñiga
@@ -399,7 +399,7 @@ $CATEGORY: Espectáculo
 
 $CATEGORY: Espectáculo
 ::Q58:: ¿Qué actor es el protagonista masculino de la pelicula española: 'Una palabra tuya'?{
-~LuisMerlo
+~Luis Merlo
 ~Paco Leon
 =Antonio de la torre
 }
@@ -433,7 +433,7 @@ $CATEGORY: Geografía
 }
 
 $CATEGORY: Geografía
-::Q63:: ¿Dnde está la Plaza Navona?{
+::Q63:: ¿Donde está la Plaza Navona?{
 =Roma
 ~Venecia
 ~Barcelona
@@ -459,3 +459,4 @@ $CATEGORY: Geografía
 ~Argentina
 ~Brasil
 }
+
