@@ -460,3 +460,47 @@ $CATEGORY: Geografía
 ~Brasil
 }
 
+$CATEGORY: Geografía
+::Q67:: ¿De entre las ciudades de Colonia, Frankfurt, Stuttgar, Hannover y Hamburgo, ¿cuál es la que está más 
+cerca de la capital federal de Alemania?{
+=Colonia
+~Hannover
+~Frankfurt
+}
+
+$CATEGORY: Geografía
+::Q68:: ¿Qué ciudad aparece en la confluencia de los ríos Júcar y Huécar? {
+= Cuenca
+~ Toledo  
+~ Salamanca
+}
+
+$CATEGORY: Geografía
+::Q69:: ¿Cuál es la capital actual del Nepal? {
+= Katmandú
+~ Lumbini  
+~ Pokhara
+}
+
+$CATEGORY: Geografía
+::Q70:: ¿Dónde se encuentra el lago Eyre? {
+= Australia
+~ Escocia  
+~ Kenia
+}
+
+$CATEGORY: Geografía
+::Q71:: ¿Cómo se llama la actual capital de Chipre? {
+= Nicosia
+~ Pafos  
+~ Protaras
+}
+
+$CATEGORY: Geografía
+::Q72:: ¿Cuál es el primer país del mundo productor de plata?{
+= Méjico
+~ Chipre  
+~ Perú
+}
+
+
