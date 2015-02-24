@@ -1,11 +1,16 @@
 package es.uniovi.asw.trivial;
 
+import java.io.IOException;
+
 public class Extractor {
 	
-	public void usage() {
+	public void usage() throws IOException {
 		System.out.println("Wellcome to Trivial Extractor");
+		MenuOptions menu = new MenuOptions();
+		menu.start();
+		
 	}
-	public int run(String[] args) {
+	public int run(String[] args) throws IOException {
 		if (args.length == 0) {
 			usage();
 			return 0;
@@ -13,7 +18,7 @@ public class Extractor {
 		return -1 ;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
         new Extractor().run(args);
     }	
 }
