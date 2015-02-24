@@ -1,0 +1,20 @@
+{
+"Deportes": [
+{
+"ItemId": "Q1",
+"ItemType": "Pregunta",
+"QuestionText": "¿En qué deporte se usa tiza?",
+"CorrectAnswerText": "Billar",
+"IncorrectText1": "Baseball",
+"IncorrectText2": "Baloncesto"
+},
+{
+"ItemId": "Q2",
+"ItemType": "Pregunta",
+"QuestionText": "¿En qué año nació Iker Casillas?",
+"CorrectAnswerText": "1981",
+"IncorrectText1": "1979",
+"IncorrectText2": "1980"
+}
+]
+}
