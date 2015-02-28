@@ -1,5 +1,4 @@
-package es.uniovi.asw.parsers.json;
-
+package es.uniovi.asw.util;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +15,14 @@ public class Question {
 		this.wrongAnswers = new ArrayList<String>();
 	}
 	
+	public Question(String question, String correctansw, String wrongansw1,
+			String wrongansw2) {
+		this.text = question;
+		this.correctAnswer = correctansw;
+		this.wrongAnswers.add(wrongansw1);
+		this.wrongAnswers.add(wrongansw2);
+	}
+
 	public String getCategory() {
 		return category;
 	}
@@ -52,13 +59,10 @@ public class Question {
 		return wrongAnswers;
 	}
 
-	@Override
-	public String toString() {
-		return "Question [id=" + id + ", category=" + category + ", text="
-				+ text + ", correctAnswer=" + correctAnswer + ", wrongAnswers="
-				+ wrongAnswers + "]";
-	}
-
-	
-	
+//	@Override
+//	public String toString() {
+//		return "Question [id=" + id + ", category=" + category + ", text="
+//				+ text + ", correctAnswer=" + correctAnswer + ", wrongAnswers="
+//				+ wrongAnswers + "]";
+//	}
 }

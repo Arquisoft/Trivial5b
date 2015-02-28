@@ -12,13 +12,13 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import es.uniovi.asw.util.Question;
 
-
-public class Parser {
+public class ParserXML {
 
 	
 	public static void main(String[] args){
-		Parser p = new Parser();
+		ParserXML p = new ParserXML();
 		Document doc = p.parseXMLFile("questions.xml");
 		List<Question> list = p.parseDocument(doc);
 		System.out.println("No of Questions '" + list.size() + "'.");
@@ -72,10 +72,9 @@ public class Parser {
 		String correctansw = getTextValue(questEl,"correctansw");
 		String wrongansw1 = getTextValue(questEl,"wrongansw1");
 		String wrongansw2 = getTextValue(questEl,"wrongansw2");
-		String wrongasnw3 = getTextValue(questEl,"wrongansw3");
 		
 		//Creamos un nuevo objeto question
-		Question q = new Question(question,correctansw,wrongansw1,wrongansw2,wrongasnw3);
+		Question q = new Question(question,correctansw,wrongansw1,wrongansw2);
 		
 		return q;
 	}

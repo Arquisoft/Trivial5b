@@ -3,8 +3,8 @@ package es.uniovi.asw.trivial;
 import java.io.IOException;
 import java.util.Scanner;
 
-import es.uniovi.asw.parsers.json.Proof;
-import es.uniovi.asw.parsers.xml.Parser;
+import es.uniovi.asw.parsers.json.Parser;
+import es.uniovi.asw.parsers.xml.ParserXML;
 
 public class MenuOptions {
 
@@ -26,7 +26,7 @@ public class MenuOptions {
 		case 1:
 			System.out.println("Option 1 selected"); // This is where I want to
 														// call the class
-			Proof jsonParser = new Proof();
+			Parser jsonParser = new Parser();
 			System.out.println("parsing...");
 			jsonParser.parserGIFT();
 			System.out.println("done!");
@@ -34,7 +34,7 @@ public class MenuOptions {
 		case 2:
 			System.out.println("Option 2 selected"); // this is where I want to
 														// call the class
-			Parser xmlParser = new Parser();
+			ParserXML xmlParser = new ParserXML();
 			xmlParser.parseXMLFile("Data/questions");
 			break;
 		}

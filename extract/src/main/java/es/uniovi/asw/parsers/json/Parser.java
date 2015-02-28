@@ -7,13 +7,20 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Proof {
+import com.google.gson.Gson;
+
+import es.uniovi.asw.util.Question;
+
+public class Parser {
 
 	public static void main(String[] args) throws IOException {
 
-		Proof p = new Proof();
-		for(Question q:p.parserGIFT())
-			System.out.println(q);
+		Parser p = new Parser();
+		for(Question q:p.parserGIFT()){
+			Gson gson = new Gson();
+			String representacionJSON = gson.toJson(q);
+			System.out.println(representacionJSON);
+		}
 	}
 	
 	public List<Question> parserGIFT() throws IOException{
