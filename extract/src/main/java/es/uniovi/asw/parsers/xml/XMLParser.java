@@ -14,12 +14,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import es.uniovi.asw.util.Question;
 
-public class ParserXML {
+public class XMLParser {
 
 	
 	public static void main(String[] args){
-		ParserXML p = new ParserXML();
-		Document doc = p.parseXMLFile("questions.xml");
+		XMLParser p = new XMLParser();
+		Document doc = p.parseXMLFile("Data/questionsXML.xml");
 		List<Question> list = p.parseDocument(doc);
 		System.out.println("No of Questions '" + list.size() + "'.");
 		for(Question e:list) 

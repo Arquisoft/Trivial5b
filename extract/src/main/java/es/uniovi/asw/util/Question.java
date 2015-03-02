@@ -17,6 +17,7 @@ public class Question {
 	
 	public Question(String question, String correctansw, String wrongansw1,
 			String wrongansw2) {
+		this.wrongAnswers = new ArrayList<String>();
 		this.text = question;
 		this.correctAnswer = correctansw;
 		this.wrongAnswers.add(wrongansw1);
@@ -59,10 +60,10 @@ public class Question {
 		return wrongAnswers;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Question [id=" + id + ", category=" + category + ", text="
-//				+ text + ", correctAnswer=" + correctAnswer + ", wrongAnswers="
-//				+ wrongAnswers + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Question [id=" + id + ", category=" + category + ", text="
+				+ text + ", correctAnswer=" + correctAnswer + ", wrongAnswers="
+				+ wrongAnswers + "]";
+	}
 }

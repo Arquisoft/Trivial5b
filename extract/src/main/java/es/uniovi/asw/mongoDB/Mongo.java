@@ -9,7 +9,7 @@ import com.mongodb.DBCursor;
 import com.mongodb.MongoClient;
 import com.mongodb.WriteConcern;
 
-import es.uniovi.asw.parsers.json.Parser;
+import es.uniovi.asw.parsers.json.GIFTParser;
 import es.uniovi.asw.util.Question;
 
 public class Mongo {
@@ -19,7 +19,7 @@ public class Mongo {
 		DB db = mongoClient.getDB("mydb");
 		DBCollection coll = db.getCollection("questionsCollection");
 		mongoClient.setWriteConcern(WriteConcern.JOURNALED);
-		Parser p = new Parser();
+		GIFTParser p = new GIFTParser();
 		BasicDBObject doc = null;
 		for (Question q : p.parserGIFT()) {
 			doc = new BasicDBObject("category", q.getCategory())

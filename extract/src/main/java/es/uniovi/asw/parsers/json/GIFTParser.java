@@ -11,11 +11,11 @@ import com.google.gson.Gson;
 
 import es.uniovi.asw.util.Question;
 
-public class Parser {
+public class GIFTParser {
 
 	public static void main(String[] args) throws IOException {
 
-		Parser p = new Parser();
+		GIFTParser p = new GIFTParser();
 		for(Question q:p.parserGIFT()){
 			Gson gson = new Gson();
 			String representacionJSON = gson.toJson(q);
@@ -24,7 +24,7 @@ public class Parser {
 	}
 	
 	public List<Question> parserGIFT() throws IOException{
-		List<String> lines = leerFichero("Data/questions");
+		List<String> lines = leerFichero("Data/questionsGIFT");
 		List<Question> questions = new ArrayList<Question>();
 		Question question = new Question();
 		String aux = "";
