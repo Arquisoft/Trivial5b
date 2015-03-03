@@ -53,13 +53,8 @@ public class XMLParser {
 		if(nl != null && nl.getLength() > 0) {
 			for(int i = 0 ; i < nl.getLength();i++) {
 
-				//get the employee element
 				Element el = (Element)nl.item(i);
-
-				//get the Employee object
 				Question e = getQuestion(el);
-
-				//add it to list
 				myquestions.add(e);
 			}
 		}
@@ -90,9 +85,6 @@ public class XMLParser {
 	}
 
 
-	/**
-	 * Calls getTextValue and returns a int value
-	 */
 	private int getIntValue(Element ele, String tagName) {
 		//in production application you would catch the exception
 		return Integer.parseInt(getTextValue(ele,tagName));
