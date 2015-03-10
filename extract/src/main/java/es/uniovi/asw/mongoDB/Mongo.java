@@ -21,7 +21,7 @@ public class Mongo {
 		mongoClient.setWriteConcern(WriteConcern.JOURNALED);
 		GIFTParser p = new GIFTParser();
 		BasicDBObject doc = null;
-		for (Question q : p.parserGIFT()) {
+		for (Question q : p.parserGIFT("Data/questionsGIFT")) {
 			doc = new BasicDBObject("category", q.getCategory())
 					.append("question", q.getText())
 					.append("correctanswer", q.getCorrectAnswer())

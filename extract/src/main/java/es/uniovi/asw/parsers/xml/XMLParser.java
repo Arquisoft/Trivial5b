@@ -67,9 +67,10 @@ public class XMLParser {
 		String correctansw = getTextValue(questEl,"correctansw");
 		String wrongansw1 = getTextValue(questEl,"wrongansw1");
 		String wrongansw2 = getTextValue(questEl,"wrongansw2");
+		String category = getTextValue(questEl,"category");
 		
 		//Creamos un nuevo objeto question
-		Question q = new Question(question,correctansw,wrongansw1,wrongansw2);
+		Question q = new Question(question,correctansw,wrongansw1,wrongansw2,category);
 		
 		return q;
 	}
@@ -85,8 +86,8 @@ public class XMLParser {
 	}
 
 
-	private int getIntValue(Element ele, String tagName) {
+	/*private int getIntValue(Element ele, String tagName) {
 		//in production application you would catch the exception
 		return Integer.parseInt(getTextValue(ele,tagName));
-	}
+	}*/
 }

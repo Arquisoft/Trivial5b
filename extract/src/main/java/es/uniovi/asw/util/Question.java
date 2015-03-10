@@ -16,12 +16,13 @@ public class Question {
 	}
 	
 	public Question(String question, String correctansw, String wrongansw1,
-			String wrongansw2) {
+			String wrongansw2,String category) {
 		this.wrongAnswers = new ArrayList<String>();
 		this.text = question;
 		this.correctAnswer = correctansw;
 		this.wrongAnswers.add(wrongansw1);
 		this.wrongAnswers.add(wrongansw2);
+		this.category = category;
 	}
 
 	public String getCategory() {
@@ -62,7 +63,7 @@ public class Question {
 
 	@Override
 	public String toString() {
-		return "Question [id=" + id + ", category=" + category + ", text="
+		return "Question [category=" + category + ", text="
 				+ text + ", correctAnswer=" + correctAnswer + ", wrongAnswers="
 				+ wrongAnswers + "]";
 	}
