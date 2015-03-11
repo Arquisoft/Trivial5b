@@ -7,9 +7,21 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.gson.Gson;
+
 import es.uniovi.asw.util.Question;
 
 public class GIFTParser {
+
+	public static void main(String[] args) throws IOException {
+
+		GIFTParser p = new GIFTParser();
+		for(Question q:p.parserGIFT("Data/questionsGIFT")){
+			Gson gson = new Gson();
+			String representacionJSON = gson.toJson(q);
+			System.out.println(representacionJSON);
+		}
+	}
 	
 	public List<Question> parserGIFT(String file) throws IOException{
 		List<String> lines = leerFichero("Data/questionsGIFT");
@@ -56,4 +68,7 @@ public class GIFTParser {
 		}
 		return lines;
 	}
+	
+	
+
 }

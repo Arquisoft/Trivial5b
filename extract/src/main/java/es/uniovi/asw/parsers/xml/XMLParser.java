@@ -8,21 +8,33 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import es.uniovi.asw.util.Question;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import es.uniovi.asw.util.Question;
 
 public class XMLParser {
 
+	
+	public static void main(String[] args){
+		XMLParser p = new XMLParser();
+		Document doc = p.parseXMLFile("Data/questionsXML.xml");
+		List<Question> list = p.parseDocument(doc);
+		System.out.println("No of Questions '" + list.size() + "'.");
+		for(Question e:list) 
+			System.out.println(e.toString());
+		
+	}
+	
 	public Document parseXMLFile(String file){
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		Document dom;
 		try{
 			DocumentBuilder db = dbf.newDocumentBuilder();
+			
 			dom = db.parse(file);
+			
 			return dom;
 		}catch(ParserConfigurationException pce){
 			pce.printStackTrace();
@@ -72,4 +84,10 @@ public class XMLParser {
 		}
 		return textVal;
 	}
+
+
+	/*private int getIntValue(Element ele, String tagName) {
+		//in production application you would catch the exception
+		return Integer.parseInt(getTextValue(ele,tagName));
+	}*/
 }

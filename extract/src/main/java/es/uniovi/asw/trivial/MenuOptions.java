@@ -3,13 +3,10 @@ package es.uniovi.asw.trivial;
 import java.io.IOException;
 import java.util.Scanner;
 
+import org.w3c.dom.Document;
 import es.uniovi.asw.parsers.json.GIFTParser;
 import es.uniovi.asw.parsers.xml.XMLParser;
 import es.uniovi.asw.util.Question;
-
-import org.w3c.dom.Document;
-
-import com.google.gson.Gson;
 
 public class MenuOptions {
 
@@ -23,7 +20,7 @@ public class MenuOptions {
 		System.out.println("| Options:                 |");
 		System.out.println("|        1. GIFT-JSON      |");
 		System.out.println("|        2. XML-JSON       |");
-		System.out.println("|        3. Salir          |");
+		System.out.println("|        3. Salir         |");
 		System.out.println("============================");
 		System.out.print("Escoja una de las acciones disponibles:");
 		opcion = scanner.nextInt();
@@ -33,22 +30,16 @@ public class MenuOptions {
 				System.out.println("Option 1 selected");
 				GIFTParser jsonParser = new GIFTParser();
 				System.out.println("Resultado de parsear las preguntas en formato GIFT");
-				for(Question q:jsonParser.parserGIFT("Data/questionsGIFT")){
-					Gson gson = new Gson();
-					String representacionJSON = gson.toJson(q);
-					System.out.println(representacionJSON);
-				}
+				for(Question q:jsonParser.parserGIFT("Data/questionsGIFT"))
+					System.out.println(q);
 				break;
 			case 2:
 				System.out.println("Option 2 selected");
 				XMLParser xmlParser = new XMLParser();
 				System.out.println("Resultado de parsear las preguntas en formato XML");
 				Document doc = xmlParser.parseXMLFile("Data/questionsXML.xml");
-				for(Question q:xmlParser.parseDocument(doc)){
-					Gson gson = new Gson();
-				String representacionJSON = gson.toJson(q);
-				System.out.println(representacionJSON);
-				}
+				for(Question q:xmlParser.parseDocument(doc))
+						System.out.println(q);
 				break;
 			}
 			System.out.println("============================");
@@ -57,11 +48,11 @@ public class MenuOptions {
 			System.out.println("| Options:                 |");
 			System.out.println("|        1. GIFT-JSON      |");
 			System.out.println("|        2. XML-JSON       |");
-			System.out.println("|        3. Salir          |");
+			System.out.println("|        3. Salir         |");
 			System.out.println("============================");
 			System.out.print("Escoja una de las acciones disponibles:");
 			opcion = scanner.nextInt();
 		}
-		System.out.println("Simulaci�n finalizada");
+		System.out.println("Simulación finalizada");
 	}
 }
