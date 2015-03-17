@@ -96,14 +96,39 @@
 		<developer>
 			<id>labra</id>
 			<name>Jose Emilio Labra Gayo</name>
+		</developer>
+		<developer>
+			<id>sergio</id>
 			<name>Sergio Lopez Gonzalez</name>
+		</developer>
+		<developer>
+			<id>Carla</id>
 			<name>Carla Costa Suarez</name>
+		</developer>
+		<developer>
+			<id>Adela</id>
 			<name>Adela Gutierrez Ines</name>
+		</developer>
+		<developer>
+			<id>daniel</id>
 			<name>Daniel Mera Lopez</name>
+		</developer>
+		<developer>
+			<id>alejandro</id>
 			<name>Alejandro Rico Gonzalez</name>
+		</developer>
+		<developer>
+			<id>pablo</id>
 			<name>Pablo Rodriguez Valdes</name>
+		</developer>
+		<developer>
+			<id>marcos</id>
 			<name>Marcos Ruiz Villamea</name>
+		</developer>	
+		<developer>
+			<id>cristobal</id>
 			<name>Cristobal Solar Fernandez</name>
+		</developer>	
 			<email>labra@uniovi.es</email>
 			<organization>University of Oviedo</organization>
 			<organizationUrl>http://www.uniovi.es</organizationUrl>
@@ -113,7 +138,6 @@
 			</roles>
 			<timezone>2</timezone>
 			<properties />
-		</developer>
 	</developers>
 
 
