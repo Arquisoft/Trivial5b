@@ -94,9 +94,17 @@
 	<developers>
 		<developer>
 			<id>labra</id>
-			<name>Jose Emilio Labra</name>
+			<name>José Emilio Labra Gayo</name>
+			<name>Sergio López González</name>
+			<name>Carla Costa Suárez</name>
+			<name>Adela Gutiérrez Inés</name>
+			<name>Daniel Mera López</name>
+			<name>Alejandro Rico González</name>
+			<name>Pablo Rodríguez Valdés</name>
+			<name>Marcos Ruíz Villamea</name>
+			<name>Cristóbal Solar Fernández</name>
 			<email>labra@uniovi.es</email>
-			<organization>WESO-University of Oviedo</organization>
+			<organization>University of Oviedo</organization>
 			<organizationUrl>http://www.uniovi.es</organizationUrl>
 			<roles>
 				<role>Project Admin</role>
