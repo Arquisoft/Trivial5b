@@ -26,19 +26,6 @@ public class VentanaInstrucciones extends JDialog {
 	private static final JTabbedPane instrucciones = new JTabbedPane();
 
 	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		try {
-			VentanaInstrucciones dialog = new VentanaInstrucciones(null);
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	/**
 	 * Create the dialog.
 	 */
 	public VentanaInstrucciones(JFrame padre) {
