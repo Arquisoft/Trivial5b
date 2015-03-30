@@ -106,7 +106,9 @@ public class VentanaInicio extends JFrame {
 		btInstrucciones.setVisible(true);
 		btInstrucciones.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-
+				VentanaInstrucciones instrucciones = new VentanaInstrucciones(
+						anterior);
+				instrucciones.setVisible(true);
 			}
 		});
 		return btInstrucciones;
