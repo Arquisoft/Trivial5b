@@ -1,0 +1,546 @@
+$CATEGORY: Deportes
+::Q1:: ¿En qué deporte se usa tiza?{
+~Baseball
+=Billar
+~Baloncesto
+}
+
+$CATEROGY: Deportes
+::Q2:: ¿En qué año nació Iker Casillas?{
+~1979
+~1980
+=1981
+}
+
+$CATEGORY: Deportes
+::Q3:: ¿Cuál es el límite de edad establecido para participar en los Juegos Olímpicos?{
+=Ninguna
+~80
+~65
+}
+
+$CATEGORY: Deportes
+::Q4:: ¿Cuántos jugadores se pueden sustituir en un partido de fútbol amistoso?
+=Los acordados por los equipos
+~5
+~3
+}
+
+$CATEGORY: Deportes
+::Q5:: ¿De qué color es la pelota de hockey sobre hierba?{
+~Azul
+=Blanca
+~Amarilla
+}
+
+$CATEGORY: Deportes
+::Q6:: ¿Qué directivo del F.C. Barcelona fue vicepresidente primero durante 22 años?{
+=Joan Gaspart
+~Joan Laporta
+~Bertomeu
+}
+
+$CATEGORY: Deportes
+::Q7:: ¿Qué jugador ganó el Roland Garros 1980 sin perder ni un solo set en todo el torneo?{
+=Björn Borg
+~Andre Agassi
+~Roger Federer
+}
+
+$CATEGORY: Deportes
+::Q8:: ¿Qué es el Showbol?{
+~Un deporte similar al baloncesto
+~Un deporte de exhibición similar al balonmano
+=Un deporte similar al futbol
+}
+
+$CATEGORY: Deportes
+::Q9:: ¿Quién fue el creador del Rally Paris-Dakar?{
+=Thierry Sabine
+~Rainiero de Mónaco
+~Carlos Sainz
+}
+
+$CATEGORY: Deportes
+::Q10:: ¿Cuántas copas de ferias tiene el Valencia C.F. (a 2014)?{
+~1
+=2
+~3
+}
+
+$CATEGORY: Arte y Literatura
+::Q11:: ¿Quién escribió "El Diario de Ana Frank"?{
+=Ana Frank
+~Charles Dickens
+~Frank Kafka
+}
+
+$CATEGORY: Arte y Literatura
+::Q12:: ¿En qué año se escribió 'El ingenioso hidalgo don Quijote de la Mancha'?
+~1590
+~1600
+=1605
+}
+
+$CATEGORY: Arte y Literatura
+::Q13:: ¿Dónde se encuentra expuesta 'La Gioconda'?{
+~Museo del Prado
+=Museo del Louvre
+~Museo Británico
+}
+
+$CATEGORY: Arte y Literatura
+::Q14::  ¿Con qué nombre firmaba Pablo Picasso sus pinturas?{
+~Anónimo
+~Pablo
+=Picasso
+}
+
+$CATEGORY: Arte y Literatura
+::Q15:: ¿Qué rasgo facial no tiene la Mona Lisa?{
+=Cejas
+~Orejas
+~Sonrisa
+}
+
+$CATEGORY: Arte y Literatura
+::Q16:: ¿Quién es el autor del cuadro "La vaca amarilla"?{
+~George Catlin
+=Franz Marc
+~Jose de Ribera
+}
+
+$CATEGORY: Arte y Literatura
+::Q17:: ¿De qué estilo es la Catedral de Santa Eulalia de Barcelona?{
+=Gótico
+~Romántico
+~Barroco
+}
+
+$CATEGORY: Arte y Literatura
+::Q18:: Famosa obra de Leonardo da Vinci{
+~Retrado de la reina María Tudor
+=La ultima cena
+~Las meninas
+}
+
+$CATEGORY: Arte y Literatura
+::Q19:: ¿Quién escribio 'El conde Lucanor'?{
+~Juan Ruíz, Arcipreste de Hita
+~Alfonso X El Sabio
+=Don Juan Manuel
+}
+
+$CATEGORY: Arte y Literatura
+::Q20:: ¿Qué escultura de Eduardo Chillida está en la costa de San Sebástican, País Vasco?{
+~El guernica
+~L'Hemisfèric
+=El peine del viento
+}
+
+$CATEGORY: Arte y Literatura
+::Q21:: ¿Qué novela de Ken Follett está inspirada en La Catedral de Santa María de Vitoria?{
+=Un mundo sin fin
+~En la boca del dragón
+~Una fortuna peligrosa
+}
+
+$CATEGORY: Arte y Literatura
+::Q22:: ¿Quién escribio 'Los cuentos de Canterbury'?{
+~Francisco de Quevedo
+~Luis de Gongora
+=Geoffrey Chaucer
+}
+
+$CATEGORY: Arte y Literatura
+::Q23:: ¿Qué obra de Rafael Alberti recoge poemas dedicados a los cómicos del cine mudo?{
+=Yo era un tonto y lo que he visto me ha hecho otro tonto
+~La amante
+~Marinero en tierra
+}
+
+$CATEGORY: Arte y Literatura
+::Q24:: ¿Qué arquitecto catalán diseño el parlamento escocés?{
+=Enric Miralles
+~Ricardo Bofill
+~Oriol Bohigas
+}
+
+$CATEGORY: Historia
+::Q25:: ¿En qué año fue invadido Kuwait por parte de Irak?{
+~1999
+~2001
+=1990
+}
+
+$CATEGORY: Historia
+::Q26:: ¿Cómo se llamaba el caballo preferido de Calígula?{
+~Bucéfalo
+~Rocinante
+=Incitatus
+}
+
+$CATEGORY: Historia
+::Q27:: ¿En qué año se produjo la Gran Depresión?{
+~1939
+=1929
+~1935
+}
+
+$CATEGORY: Historia
+::Q28:: ¿Quién dijo: La religión es el opio del pueblo?{
+=Karl Marx
+~Confucio
+~Winston Churchill
+}
+
+$CATEGORY: Historia
+::Q29:: ¿De qué época datan los restos de 'El Hombre de Pekín'?{
+=De entre 250.000 y 500.000 años
+~De entre 100.000 y 120.000 años
+~De entro 50.000 y 100.000 años
+}
+
+$CATEGORY: Historia
+::Q30:: ¿Quién es Fulgencio Batista?{
+=Un dictador cubano derrocado por la revolución iniciada por Fidel Castro
+~Uno de los iniciadores de la Guerra de Independencia cubana
+~El descubridor de Cuba
+}
+
+$CATEGORY: Historia
+::Q31:: ¿Dónde se fundó el Comité Internacional de la Cruz Roja?{
+~En París, Francia
+~En Madrid, España
+=En Ginebra, Suiza
+}
+
+$CATEGORY: Historia
+::Q32:: ¿De quién era lugarteniente Antonio José de Sucre?{
+~De Hernesto Guevara, el Ché
+~De Hernán Cortés
+=De Simón Bolivar
+}
+
+$CATEGORY: Historia
+::Q33:: ¿Entre qué años tuvo lugar la Guerra Civil Española?{
+~1939-1943
+~1934-1938
+=1936-1939
+}
+
+$CATEGORY: Historia
+::Q34:: ¿Cuál fue el primer país del mundo en prohibir la esclavitud?{
+~Francia
+=Reino Unico
+~Estados Unidos
+}
+
+$CATEGORY: Ciencias Naturales
+::Q35:: ¿Cuál de los cinco sentidos se desarrolla el primero?{
+~La vista
+=El olfato
+~El oído
+}
+
+$CATEGORY: Ciencias Naturales
+::Q36:: ¿Qué tienen las ranas en la boca que no tienen los sapos?{
+=Dientes
+~Lengua
+~Son iguales
+}
+
+$CATEGORY: Ciencias Naturales
+::Q37:: ¿Cuál es el dedo más sensible de la mano?{
+=El índice
+~El pulgar
+~El meñique
+}
+
+$CATEGORY: Ciencias Naturales
+::Q38:: ¿Qué es la Demofobia?{
+~Miedo a las mujeres
+~Miedo a los cementerios
+=Terror a las muchedumbres
+}
+
+$CATEGORY: Ciencias Naturales
+::Q39:: ¿Dónde nacio el cientifico Alexander Fleming?{
+~Alemania
+~Francia
+=Escocia
+}
+
+$CATEGORY: Ciencias Naturales
+::Q40:: ¿Qué elemento químico tiene un número atómico igual a 1?{
+=Hidrógeno
+~Nitrógeno
+~Carbono
+}
+
+$CATEGORY: Ciencias Naturales
+::Q41:: ¿Cuál es el hueso del muslo?{
+=Femúr
+~Peroné
+~Tibia
+}
+
+$CATEGORY: Ciencias Naturales
+::Q42:: ¿Cuál es la masa crítica del Pu-239 (plutonio 219)?{
+~14 kilogramos
+~1 kilogramo
+=10 kilogramos
+}
+
+$CATEGORY: Ciencias Naturales
+::Q43:: ¿Cuántos planetas del Sistema Solar tienen una superficia líquida?{
+~La Tierra y Saturno
+~La Tierra y Marte
+=Sólo la Tierra
+}
+
+$CATEGORY: Ciencias Naturales
+::Q44:: ¿En qué posición está la Tierra contando desde el Sol?{
+~El cuarto
+~El quinto
+=El tercero
+}
+
+$CATEGORY: Ciencias Naturales
+::Q45:: ¿A qué orden de insectos pertecen las abejas?{
+~Coleópteros
+=Himenópteros
+~Lepidópteros
+}
+
+$CATEGORY: Espectáculos
+::Q46: ¿Cuándo se formo U2?{
+~1975
+=1976
+~1977
+}
+
+$CATEGORY: Espectáculos
+::Q47:: Nacionalidad del cantante Ricky Martin.{
+=Puerto Rico
+~Colombiano 
+~Ecuatoriano
+}
+
+$CATEGORY: Espectáculo
+::Q48:: ¿Qué país ha emitido más ediciones de Gran Hermano?{
+~Italia
+~Brasil
+=España
+}
+
+$CATEGORY: Espectáculo
+::Q49:: ¿Qué película gano el Goya a mejor película en 2015?{
+=La isla mínima
+~El niño
+~Ocho apellidos vascos
+}
+
+$CATEGORY: Espectáculo
+::Q50:: ¿Qué cadena de televisión emite documentales sobre ciencias y naturaleza?{
+~Magic Kids
+~Fashion TV
+=Discovery Channel
+}
+
+$CATEGORY: Espectáculo
+::Q51:: ¿Qué actor ganó el Goya al mejor actor por la película 'Te doy mis ojos'?{
+~Alfredo Landa
+=Luis Tosar
+~Fernando Esteso
+}
+
+$CATEGORY: Espectáculo
+::Q52:: ¿Dónde vivían Las Chicas de Oro?{
+=En Miami
+~En Toronto
+~En Los Ángeles
+}
+
+$CATEGORY: Espectáculo
+::Q53:: ¿Cuál es la características distintiva del Doctor House?{
+~Siempre lleva sombrero
+~Vivía en el hospital
+=Es cojo y utiliza un bastón
+}
+
+$CATEGORY: Espectáculo
+::Q54:: ¿Quién interpreta a Christof, el creador del programa en el que vive el protagonista de 'El show de Truman'?{
+~Sylvertes Stoallone
+~Jim Carrey
+=Ed Harris
+}
+
+$CATEGORY: Espectáculo
+::Q55:: ¿Quién interpreta a la heroína antagonista en Hancock, la película estrenada en Julio de 2008?{
+=Charlize Theron
+~Catherine Kellner
+~Anna Thomson
+}
+
+$CATEGORY: Espectáculo
+::Q56:: ¿Quién interpretó a Lobezno en todas las películas de los X-men?{
+=Hugh Jackman
+~Tom Hanks
+~Brad pitt
+}
+
+$CATEGORY: Espectáculo
+::Q57:: ¿Quién ha ganado 'Supervivientes: Perdidos en Honduras 2009'?{
+~Ivonne Orssini
+~Santi Abad
+=Maite Zúñiga
+}
+
+$CATEGORY: Espectáculo
+::Q58:: ¿Qué actor es el protagonista masculino de la pelicula española: 'Una palabra tuya'?{
+~Luis Merlo
+~Paco Leon
+=Antonio de la torre
+}
+
+$CATEGORY: Geografía
+::Q59:: Visitando la ciudad de Plasencia, España, ¿qué monumento romano se podría contemplar?{
+~Termas
+~Calzada
+=Acueducto
+}
+
+$CATEGORY: Geografía
+::Q60:: ¿Dónde está el Desierto de Mojave?{
+~Namibia
+~Australia
+=Estados Unidos
+}
+
+$CATEGORY: Geografía
+::Q61:: ¿De qué colores es la bandera de la Republica Federal de Nigeria?{
+=Verde y blanco
+~Rojo, blanco y negro
+~Verde, amarillo y rojo
+}
+
+$CATEGORY: Geografía
+::Q62:: ¿Cuál es la capital de la República Cooperativa de Guayana?{
+~Riad
+~Belmopán
+=Georgetown
+}
+
+$CATEGORY: Geografía
+::Q63:: ¿Donde está la Plaza Navona?{
+=Roma
+~Venecia
+~Barcelona
+}
+
+$CATEGORY: Geografía
+::Q64:: ¿Dónde se encuentra el Río Amarillo?{
+~En Japón
+=En China
+~En Australia
+}
+
+$CATEGORY: Geografía
+::Q65:: ¿En cuál de los siguientes países no se habla el turcomano o turkmeno?{
+~Turkmenistán
+~Turquia
+=Mongolia
+}
+
+$CATEGORY: Geografía
+::Q66:: ¿En qué país se encuentra el lago Titicaca?{
+=Perú
+~Argentina
+~Brasil
+}
+
+$CATEGORY: Geografía
+::Q67:: ¿De entre las ciudades de Colonia, Frankfurt, Stuttgar, Hannover y Hamburgo, ¿cuál es la que está más 
+cerca de la capital federal de Alemania?{
+=Colonia
+~Hannover
+~Frankfurt
+}
+
+$CATEGORY: Geografía
+::Q68:: ¿Qué ciudad aparece en la confluencia de los ríos Júcar y Huécar? {
+= Cuenca
+~ Toledo  
+~ Salamanca
+}
+
+$CATEGORY: Geografía
+::Q69:: ¿Cuál es la capital actual del Nepal? {
+= Katmandú
+~ Lumbini  
+~ Pokhara
+}
+
+$CATEGORY: Geografía
+::Q70:: ¿Dónde se encuentra el lago Eyre? {
+= Australia
+~ Escocia  
+~ Kenia
+}
+
+$CATEGORY: Geografía
+::Q71:: ¿Cómo se llama la actual capital de Chipre? {
+= Nicosia
+~ Pafos  
+~ Protaras
+}
+
+$CATEGORY: Geografía
+::Q72:: ¿Cuál es el primer país del mundo productor de plata?{
+= Méjico
+~ Chipre  
+~ Perú
+}
+
+$CATEGORY: Deportes
+::Q73:: ¿A qué equipo del fútbol argentino lo llaman "el Fortín"?{
+~Estudiantes de la plata
+=Velez Sarsfield
+~Atlético Independiente
+}
+
+$CATEGORY: Deportes
+::Q74:: ¿A qué se dedica profesionalmente el exárbitro Prados García?{
+~Profesor
+=Funcionario
+~Albañil
+}
+
+$CATEGORY: Deportes
+::Q75:: ¿A qué se dedica profesionalmente el exárbitro Prados García?{
+~Profesor
+=Funcionario
+~Albañil
+}
+
+$CATEGORY: Deportes
+::Q76:: ¿A quién ganó el Extremadura en la promoción para ascender a Primera en 1995/96?{
+~Murcia
+=Albacete
+~Valencia
+}
+
+$CATEGORY: Deportes
+::Q77:: ¿Con qué deporte relacionas a Manuel Martín Galán?{
+~Esgrima
+=Petanca
+~Tenis
+}
+
+$CATEGORY: Arte y Literatura
+::Q78:: ¿A qué estilo pictórico pertenece José de Ribera?{
+=Barroco
+~Contemporáneo
+~Rupestre
+}
