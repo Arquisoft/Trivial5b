@@ -336,8 +336,8 @@
 	#featured
 	{
 		position: relative;
-		background: #120E90;
-		color: #E4E4EB;
+		background: #120E90 url(../images/f1.jpg) no-repeat;
+		background-size: cover;
 	}
 	
 	#featured h2
