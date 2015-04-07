@@ -11,3 +11,17 @@ R4. Solamente una de las respuestas será válida.
 R5. El sistema debe llevar un cómputo de los quesitos que se llevan acertados.
  
 R6. Para ganar la partida se deben tener completos todos los quesitos correspondientes a cada área y acertar la pregunta final.
+
+R7. El sistema debe mantener un sistema de puntuación del jugador.
+
+R8. El sistema debe generar preguntas aleatorias dentro del mismo tema.
+
+R9. El sistema permitirá al jugador comenzar su turno mediante el lanzamiento 
+
+de unos dados.
+
+R10. El sistema permitirá a los administradores gestionar las preguntas en la 
+
+base de datos.
+
+R11. El sistema permitirá elegir cuantos jugadores van a jugar (max.4).
