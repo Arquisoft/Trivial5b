@@ -129,15 +129,6 @@
 			<id>cristobal</id>
 			<name>Cristobal Solar Fernandez</name>
 		</developer>	
-			<email>labra@uniovi.es</email>
-			<organization>University of Oviedo</organization>
-			<organizationUrl>http://www.uniovi.es</organizationUrl>
-			<roles>
-				<role>Project Admin</role>
-				<role>Developer</role>
-			</roles>
-			<timezone>2</timezone>
-			<properties />
 	</developers>
 
 
