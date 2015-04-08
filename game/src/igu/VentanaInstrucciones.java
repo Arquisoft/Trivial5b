@@ -206,7 +206,7 @@ public class VentanaInstrucciones extends JDialog {
 		lblFondo.setText(null);
 		lblFondo.setLocation(0, 0);
 		lblFondo.setSize(new Dimension(484, 462));
-		ImageIcon img = new ImageIcon(getClass().getResource("/img/f1.jpg"));
+		ImageIcon img = new ImageIcon(getClass().getResource("/img/f0.jpg"));
 		Icon fondo = new ImageIcon(img.getImage().getScaledInstance(
 				lblFondo.getWidth(), lblFondo.getHeight(), Image.SCALE_DEFAULT));
 		lblFondo.setIcon(fondo);

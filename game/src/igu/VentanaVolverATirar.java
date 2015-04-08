@@ -29,6 +29,7 @@ public class VentanaVolverATirar extends JDialog {
 	private VentanaTablero tablero;
 
 	public VentanaVolverATirar(Jugada jugada, VentanaTablero tablero) {
+		System.out.println("ADIOS");
 		this.jugada = jugada;
 		this.tablero = tablero;
 		this.setUndecorated(true);
@@ -54,6 +55,7 @@ public class VentanaVolverATirar extends JDialog {
 
 		lblFondo.setIcon(fondo);
 		getContentPane().add(lblFondo, null);
+		this.setVisible(true);
 	}
 
 	private JTextArea getTxtMensaje() {

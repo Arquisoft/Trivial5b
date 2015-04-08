@@ -11,15 +11,9 @@ public class Casilla extends JButton {
 
 	private static final long serialVersionUID = 1L;
 	private int categoria;
-	private boolean especial;
 
 	public Casilla() {
 		super();
-		especial = false;
-	}
-
-	public void cambiarEspecial() {
-		this.especial = true;
 	}
 
 	public int getCategoria() {
@@ -31,7 +25,7 @@ public class Casilla extends JButton {
 	}
 
 	public void action(final VentanaTablero tablero, final int i, final int j,
-			final Jugada jugada) {
+			final Jugada jugada, final int opcion) {
 		if ((i == 0 && j == 4) || (i == 4 && j == 0) || (i == 4 && j == 8)
 				|| (i == 8 && j == 4))
 			return;
@@ -44,15 +38,11 @@ public class Casilla extends JButton {
 					jugada.getJugadorActivo().setJ(j);
 					tablero.quitarFicha(aux_i, aux_j);
 					tablero.moverJugador(jugada.getJugadorActivo());
-					VentanaPregunta v = new VentanaPregunta(categoria,
-							especial, tablero, jugada);
+					VentanaPregunta v = new VentanaPregunta(categoria, tablero,
+							jugada, opcion);
 					v.setVisible(true);
 				}
 			});
 		}
-	}
-
-	public boolean isEspecial() {
-		return especial;
 	}
 }

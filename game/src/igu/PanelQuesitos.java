@@ -9,62 +9,71 @@ import javax.swing.JPanel;
 
 public class PanelQuesitos extends JPanel {
 	private static final long serialVersionUID = 1L;
-	// private JPanel quesitos;
-	private JButton btAmarillo = new JButton();
-	private JButton btAzul = new JButton();
-	private JButton btVerde = new JButton();
-	private JButton btRosa = new JButton();
+	private JButton boton1 = new JButton();
+	private JButton boton2 = new JButton();
+	private JButton boton3 = new JButton();
+	private JButton boton4 = new JButton();
 
-	public PanelQuesitos() {
+	public PanelQuesitos(int opcion) {
 		setLayout(new GridLayout(2, 2, 0, 0));
-		this.add(btAmarillo);
-		this.add(btAzul);
-		this.add(btVerde);
-		this.add(btRosa);
-		colorQuesitos();
+		this.add(boton1);
+		this.add(boton2);
+		this.add(boton3);
+		this.add(boton4);
+		visibles();
+		colorQuesitos(opcion);
 	}
 
-	private void colorQuesitos() {
-		btAmarillo.setEnabled(false);
-		btAzul.setEnabled(false);
-		btVerde.setEnabled(false);
-		btRosa.setEnabled(false);
-		btAmarillo.setBackground(Color.yellow);
-		btAzul.setBackground(Color.blue);
-		btVerde.setBackground(Color.green);
-		btRosa.setBackground(Color.magenta);
-		btAmarillo.setVisible(true);
-		btAzul.setVisible(true);
-		btVerde.setVisible(true);
-		btRosa.setVisible(true);
+	private void visibles() {
+		boton1.setEnabled(false);
+		boton2.setEnabled(false);
+		boton4.setEnabled(false);
+		boton4.setEnabled(false);
+		boton1.setVisible(true);
+		boton2.setVisible(true);
+		boton3.setVisible(true);
+		boton4.setVisible(true);
+	}
+
+	private void colorQuesitos(int opcion) {
+		if (opcion == 1) {
+			boton1.setBackground(Color.yellow);
+			boton2.setBackground(Color.blue);
+			boton3.setBackground(Color.green);
+			boton4.setBackground(Color.magenta);
+		} else {
+			boton1.setBackground(Color.white);
+			boton2.setBackground(Color.ORANGE);
+			boton3.setBackground(Color.cyan);
+			boton4.setBackground(Color.red);
+		}
 	}
 
 	public void tickCategoria(int categoria) {
-		System.out.println("VOY A PONER EL TICK EN LA CATEGORIA " + categoria);
 		switch (categoria) {
 		case 1:
-			btAmarillo.setDisabledIcon(new ImageIcon(getClass().getResource(
+			boton1.setDisabledIcon(new ImageIcon(getClass().getResource(
 					"/img/tick.png")));
-			btAmarillo.setIcon(new ImageIcon(getClass().getResource(
-					"/img/tick.png")));
+			boton1.setIcon(new ImageIcon(getClass()
+					.getResource("/img/tick.png")));
 			break;
 		case 2:
-			btAzul.setDisabledIcon(new ImageIcon(getClass().getResource(
+			boton2.setDisabledIcon(new ImageIcon(getClass().getResource(
 					"/img/tick.png")));
-			btAzul.setIcon(new ImageIcon(getClass().getResource(
-					"/img/tick.png")));
+			boton2.setIcon(new ImageIcon(getClass()
+					.getResource("/img/tick.png")));
 			break;
 		case 3:
-			btVerde.setDisabledIcon(new ImageIcon(getClass().getResource(
+			boton3.setDisabledIcon(new ImageIcon(getClass().getResource(
 					"/img/tick.png")));
-			btVerde.setIcon(new ImageIcon(getClass().getResource(
-					"/img/tick.png")));
+			boton3.setIcon(new ImageIcon(getClass()
+					.getResource("/img/tick.png")));
 			break;
 		case 4:
-			btRosa.setDisabledIcon(new ImageIcon(getClass().getResource(
+			boton4.setDisabledIcon(new ImageIcon(getClass().getResource(
 					"/img/tick.png")));
-			btRosa.setIcon(new ImageIcon(getClass().getResource(
-					"/img/tick.png")));
+			boton4.setIcon(new ImageIcon(getClass()
+					.getResource("/img/tick.png")));
 			break;
 		}
 	}

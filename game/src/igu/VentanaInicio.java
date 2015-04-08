@@ -1,5 +1,6 @@
 package igu;
 
+import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -28,10 +29,6 @@ public class VentanaInicio extends JFrame {
 		this.setTitle("Inicio");
 		this.setBounds(40, 40, 500, 400);
 
-		// Descomentar la linea de abajo solo cuando se pongan los botones y
-		// vaya todo bien.
-		// this.setUndecorated(true);
-
 		this.setLocationRelativeTo(null);
 		this.setResizable(false);
 
@@ -49,7 +46,7 @@ public class VentanaInicio extends JFrame {
 		lblFondo.setText(null);
 		lblFondo.setLocation(0, 0);
 		lblFondo.setSize(this.getSize());
-		ImageIcon img = new ImageIcon(getClass().getResource("/img/f1.jpg"));
+		ImageIcon img = new ImageIcon(getClass().getResource("/img/f0.jpg"));
 		Icon fondo = new ImageIcon(img.getImage().getScaledInstance(
 				lblFondo.getWidth(), lblFondo.getHeight(), Image.SCALE_DEFAULT));
 		lblFondo.setIcon(fondo);
@@ -68,8 +65,8 @@ public class VentanaInicio extends JFrame {
 	}
 
 	private JLabel getLblTexto() {
-		lblTexto = new JLabel(
-				"<html><font color='blue'>Trivial </font><font color='white'>5B</font></html>");
+		lblTexto = new JLabel("Trivial 5b");
+		lblTexto.setForeground(Color.white);
 		lblTexto.setBounds(210, -30, 200, 300);
 		lblTexto.setFont(new java.awt.Font("Candara", 1, 40));
 		return lblTexto;

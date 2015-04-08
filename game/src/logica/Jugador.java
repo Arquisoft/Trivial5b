@@ -14,7 +14,7 @@ public class Jugador {
 
 	public Jugador(String nombre, PanelQuesitos panel) {
 		this.nombre = nombre;
-		panelJugador = panel;
+		this.panelJugador = panel;
 		for (int i = 0; i < 4; i++)
 			categorias.add(false);
 	}
@@ -44,8 +44,8 @@ public class Jugador {
 	}
 
 	public void setCategoria(int categoria) {
-		categorias.set(categoria - 1, true);
-		panelJugador.tickCategoria(categoria);
+		this.categorias.set(categoria - 1, true);
+		this.panelJugador.tickCategoria(categoria);
 	}
 
 	public int getPreguntas() {
