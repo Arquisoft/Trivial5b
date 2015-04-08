@@ -1,6 +1,6 @@
 <Elements>
 	<Element>
-		<question>Cúal es la capital de españa?</question>
+		<question>¿Cúal es la capital de España?</question>
 		<answers>
 			<correctansw>Madrid</correctansw>
 			<category>Geografía</category>
@@ -91,7 +91,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question>¿Cuántas copas de ferias tiene el Valencia C.F. (a 2014)</question>
+		<question>¿Cuántas copas de ferias tiene el Valencia C.F. (a 2014)?</question>
 		<answers>
 			<correctansw>2</correctansw>
 			<category>Deportes</category>
@@ -100,7 +100,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question>¿¿Quién escribió "El Diario de Ana Frank"?</question>
+		<question>¿Quién escribió "El Diario de Ana Frank"?</question>
 		<answers>
 			<correctansw>Ana Frank</correctansw>
 			<category>Arte y literatura</category>
@@ -172,7 +172,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Quién escribio 'El conde Lucanor'?</question>
+		<question>¿Quién escribio 'El conde Lucanor'?</question>
 		<answers>
 			<correctansw>Don Juan Manuel</correctansw>
 			<category>Arte y literatura</category>
@@ -181,16 +181,16 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Qué escultura de Eduardo Chillida está en la costa de San Sebástican, País Vasco?</question>
+		<question>¿Qué escultura de Eduardo Chillida está en la costa de San Sebástican, País Vasco?</question>
 		<answers>
-			<correctansw>El peinde del viento</correctansw>
+			<correctansw>El peine del viento</correctansw>
 			<category>Arte y literatura</category>
 			<wrongansw1>El guernica</wrongansw1>
 			<wrongansw2>L'Hemisfèric</wrongansw2>
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Qué novela de Ken Follett está inspirada en La Catedral de Santa María de Vitoria?</question>
+		<question>¿Qué novela de Ken Follett está inspirada en La Catedral de Santa María de Vitoria?</question>
 		<answers>
 			<correctansw>Un mundo sin fin</correctansw>
 			<category>Arte y literatura</category>
@@ -199,7 +199,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Quién escribio 'Los cuentos de Canterbury'?</question>
+		<question>¿Quién escribio 'Los cuentos de Canterbury'?</question>
 		<answers>
 			<correctansw>Geoffrey Chaucer</correctansw>
 			<category>Arte y literatura</category>
@@ -208,7 +208,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Qué obra de Rafael Alberti recoge poemas dedicados a los cómicos del cine mudo?</question>
+		<question>¿Qué obra de Rafael Alberti recoge poemas dedicados a los cómicos del cine mudo?</question>
 		<answers>
 			<correctansw>Yo era un tonto y lo que he visto me ha hecho otro tonto</correctansw>
 			<category>Arte y literatura</category>
@@ -217,7 +217,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Qué arquitecto catalán diseño el parlamento escocés?</question>
+		<question>¿Qué arquitecto catalán diseño el parlamento escocés?</question>
 		<answers>
 			<correctansw>Eric Miralles</correctansw>
 			<category>Arte y literatura</category>
@@ -435,7 +435,7 @@
 	<Element>
 		<question>¿Qué país ha emitido más ediciones de Gran Hermano?</question>
 		<answers>
-			<correctansw>España Rico</correctansw>
+			<correctansw>España</correctansw>
 			<category>Espectáculos</category>
 			<wrongansw1>Italia</wrongansw1>
 			<wrongansw2>Brasil</wrongansw2>
@@ -456,7 +456,7 @@
 			<correctansw>Discovery chanel</correctansw>
 			<category>Espectáculos</category>
 			<wrongansw1>Fashion TV</wrongansw1>
-			<wrongansw2>MAgic Kids</wrongansw2>
+			<wrongansw2>Magic Kids</wrongansw2>
 		</answers>
 	</Element>
 	<Element>
@@ -469,7 +469,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question>¿Qué ¿Dónde vivían Las Chicas de Oro?</question>
+		<question>¿Dónde vivían Las Chicas de Oro?</question>
 		<answers>
 			<correctansw>En Miami</correctansw>
 			<category>Espectáculos</category>
@@ -478,7 +478,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question>¿Cuál es la características distintiva del Doctor House?</question>
+		<question>¿Cuál es la característica distintiva del Doctor House?</question>
 		<answers>
 			<correctansw>Es cojo y utiliza un bastón</correctansw>
 			<category>Espectáculos</category>
@@ -523,7 +523,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Qué actor es el protagonista masculino de la pelicula española: 'Una palabra tuya'?</question>
+		<question>¿Qué actor es el protagonista masculino de la pelicula española: 'Una palabra tuya'?</question>
 		<answers>
 			<correctansw>Antonio de la Torre</correctansw>
 			<category>Espectáculos</category>
@@ -532,7 +532,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> Visitando la ciudad de Plasencia, España, ¿qué monumento romano se podría contemplar?</question>
+		<question>Visitando la ciudad de Plasencia, España, ¿qué monumento romano se podría contemplar?</question>
 		<answers>
 			<correctansw>Acueducto</correctansw>
 			<category>Geografía</category>
@@ -541,7 +541,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Dónde está el Desierto de Mojave?</question>
+		<question>¿Dónde está el Desierto de Mojave?</question>
 		<answers>
 			<correctansw>Estados Unidos</correctansw>
 			<category>Geografía</category>
@@ -550,7 +550,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿De qué colores es la bandera de la Republica Federal de Nigeria?</question>
+		<question>¿De qué colores es la bandera de la Republica Federal de Nigeria?</question>
 		<answers>
 			<correctansw>Verde y blanco</correctansw>
 			<category>Geografía</category>
@@ -559,7 +559,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question> ¿Cuál es la capital de la República Cooperativa de Guayana?</question>
+		<question>¿Cuál es la capital de la República Cooperativa de Guayana?</question>
 		<answers>
 			<correctansw>Georgetown</correctansw>
 			<category>Geografía</category>
@@ -568,7 +568,7 @@
 		</answers>
 	</Element>
 	<Element>
-		<question>¿Donde está la Plaza Navona?</question>
+		<question>¿Dónde está la Plaza Navona?</question>
 		<answers>
 			<correctansw>Roma</correctansw>
 			<category>Geografía</category>
@@ -668,16 +668,7 @@ cerca de la capital federal de Alemania?</question>
 		</answers>
 	</Element>
 	<Element>
-	<question>¿A qué equipo del fútbol argentino lo llaman "el Fortín"?</question>
-		<answers>
-			<correctansw>Estudiantes de la plata</correctansw>
-			<category>Deportes</category>
-			<wrongansw1>Velez Sarsfield</wrongansw1>
-			<wrongansw2>Atlético Independiente</wrongansw2>
-		</answers>
-	</Element>
-	<Element>
-	<question>¿A qué se dedica profesionalmente el exárbitro Prados García?</question>
+	<question>¿A qué se dedica profesionalmente el ex-árbitro Prados García?</question>
 		<answers>
 			<correctansw>Funcionario</correctansw>
 			<category>Deportes</category>
