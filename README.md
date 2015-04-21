@@ -12,12 +12,12 @@ productos basados en juegos de preguntas/respuesta para diversas plataformas. En
 Autores
 =============
 
-* Alejandro - jandroRG (https://github.com/jandroRG)
-* Pablo Rodríguez Valdés - valdes86 (https://github.com/valdes86)
-* Daniel Mera López - danielmera (https://github.com/danielmera)
-* Cristobal - Cristto (https://github.com/Cristto)
-* Adela Gutierrez Inés - AdelaGutierrez (https://github.com/AdelaGutierrez)
-* Javier - jcasus (https://github.com/jcasus)
-* Marcos Ruiz - MarcosRV87 (https://github.com/MarcosRV87)
-* Sergio López González - serlogo (https://github.com/serlogo)
-* Carla Costa - carlacs (https://github.com/carlacs)
+* Alejandro - [jandroRG] (https://github.com/jandroRG)
+* Pablo Rodríguez Valdés - [valdes86] (https://github.com/valdes86)
+* Daniel Mera López - [danielmera] (https://github.com/danielmera)
+* Cristobal - [Cristto] (https://github.com/Cristto)
+* Adela Gutierrez Inés - [AdelaGutierrez] (https://github.com/AdelaGutierrez)
+* Javier - [jcasus] (https://github.com/jcasus)
+* Marcos Ruiz - [MarcosRV87] (https://github.com/MarcosRV87)
+* Sergio López González - [serlogo] (https://github.com/serlogo)
+* Carla Costa - [carlacs] (https://github.com/carlacs)
