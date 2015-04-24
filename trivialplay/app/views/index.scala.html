@@ -1,0 +1,23 @@
+@(pregunta: Pregunta)
+
+@main("Welcome to Play") {
+
+    <h1>Pregunta</h1>
+    
+    <p>Preguntas acertadas @session.get("acertadas")</p>
+    
+    <p>@pregunta.enunciado</p>
+    
+    <ul>
+    	<li>
+    		<a href="@routes.Application.responder(1)">@pregunta.opcion1</a>
+    	</li>
+    	<li>
+    		<a href="@routes.Application.responder(2)">@pregunta.opcion2</a>
+    	</li>
+    	<li>
+    		<a href="@routes.Application.responder(3)">@pregunta.opcion3</a>
+    	</li>
+    </ul>
+
+}
