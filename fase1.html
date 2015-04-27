@@ -61,48 +61,22 @@
 							La finalidad de esta parte de la práctica es crear un pequeño programa en Java que lea un 
 							fichero con formato GIFT y lo transforme a formato JSON. Para poder reutilizar el programa,
 							además de poder convertir el GIFT en JSON, el programa también transforma el formato XML en
-							formato JSON.
+							formato JSON. La descripción de los formatos es la siguiente:
 							</p>
 							<p>
-							El formato <strong>GIFT</strong> es utilizado para importar preguntas de tipo test. En nuestro
-							caso tiene el siguiente formato:
-								<ul>
-									<li><i>$CATEROGY: Deportes<br>
-									::Q2:: ¿En qué año nació Iker Casillas?{<br>
-									~1979<br>
-									~1980<br>
-									=1981<br>
-									}</i></li>
-								</ul>
-							<p>El formato anterior sigue la siguiente estructura:</p>
-								<ul>
-									<li>·La categoría de la pregunta.</li>
-									<li>·El identificador de la pregunta y la pregunta.</li>
-									<li>·Las respuestas incorrectas marcadas con '~' y la correcta con '='.</li>
-								</ul>
+							El formato <strong>GIFT</strong> es utilizado para importar preguntas de tipo test. Permiten
+							un formato de preguntas multirespuesta. En nuestro caso tiene una pregunta y tres respuestas
+							de las cuales una es la verdadera.
 							</p>
 							<p>
 							El formato <strong>XML</strong> es un lenguaje muy parecido a <strong>HTML</strong> pero su 
 							función principal es describir datos. Su estructura consta de unas etiquetas para identificar
-							el contenido de dentro. Para el caso que estamos tratando utilizamos el siguiente formato:
-								<ul>
-									<li><i>&ltElement&gt
-											&ltquestion&gt¿En qué deporte se usa tiza?&lt/question&gt<br>
-											&ltanswers&gt<br>
-												&ltcategory&gtDeportes&lt/category&gt<br>
-												&ltcorrectansw&gtBillar&lt/correctansw&gt<br>
-												&ltwrongansw1&gtBaseball&lt/wrongansw1&gt<br>
-												&ltwrongansw2&gtBaloncesto&lt/wrongansw2&gt<br>
-											&lt/answers&gt<br>
-										&lt/Element&gt</i></li>
-								</ul>
+							el contenido de dentro. 
 							</p>
-							<p>El formato anterior sigue la siguiente estructura:</p>
-								<ul>
-									<li>·La pregunta.</li>
-									<li>·La categoría de la pregunta.</li>
-									<li>·La repuesta correcta y las incorrectas.</li>
-								</ul>
+							<p>
+							El formato <strong>JSON</strong> es un formato ligero para el intercambio de datos.
+							Contiene una sintaxis que se utiliza para identificar y gestionar los datos. Una de
+							sus ventajas es que puede ser leído por cualquier lenguaje de programación.
 							</p>
 							</section>
 					</div>
