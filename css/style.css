@@ -33,21 +33,23 @@
 			text-decoration: none;
 		}
 	h3 { 
-		display: block;
-    		font-size: 1.17em;
-    		margin-top: 1em;
-    		margin-bottom: 1em;
-    		margin-left: 0;
-    		margin-right: 0;
-    		font-weight: bold;
-    		color: #000000;
+		font-weight:normal;
+		text-transform:uppercase;
+		color: inherit;
+		letter-spacing:0pt;
+		word-spacing:0pt;
+		font-size:19px;
+		text-align:center;
+		font-family:arial black, sans-serif;
+		line-height:1;
+}
 	}
 		
 	/* Change this to whatever font weight/color pairing is most suitable */
 	strong, b
 	{
 		font-weight: bold;
-		color: #000000;
+		color: inherit;
 	}
 	
 	em, i
