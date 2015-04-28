@@ -2,23 +2,28 @@
 
 @main("Welcome to Play") {
 
-    <h1>Pregunta</h1>
+    <h1 align="center">Pregunta</h1>
     
+	<div align="center">
     <p>Preguntas acertadas @session.get("acertadas")</p>
+	</div>
     
-    <p>@pregunta.enunciado</p>
-    
-    <ul>
-    	<li>
-    		<a href="@routes.Application.responder(1)">@pregunta.opcion1</a>
-    	</li>
-    	<li>
-    		<a href="@routes.Application.responder(2)">@pregunta.opcion2</a>
-    	</li>
-    	<li>
-    		<a href="@routes.Application.responder(3)">@pregunta.opcion3</a>
-    	</li>
-    </ul>
+	<div align="center">
+    <table> 
+			<th>
+				<td>@pregunta.enunciado<td>
+			</th>
+    		<tr>
+				<td><a href="@routes.Application.responder(1)">@pregunta.opcion1</a></td>
+			</tr>
+    		<tr>
+				<td><a href="@routes.Application.responder(2)">@pregunta.opcion2</a></td>
+			</tr>
+    		<tr>
+				<td><a href="@routes.Application.responder(3)">@pregunta.opcion3</a></td>
+			</tr>
+    </table>
+	</div>
     <div>&copy; Copyright 2015 <strong>Trivial5b</strong> All Rights Reserved</div>
 
 }
