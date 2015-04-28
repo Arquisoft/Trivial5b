@@ -21,6 +21,19 @@
 		color: #4c4c4c;
 	}
 
+	h3 
+	{ 
+		font-weight:normal;
+		text-transform:uppercase;
+		color: inherit;
+		letter-spacing:0pt;
+		word-spacing:0pt;
+		font-size:19px;
+		text-align:center;
+		font-family:arial black, sans-serif;
+		line-height:1;
+	}
+	
 	h1,h2,h4,h5,h6
 	{
 		text-transform: uppercase;
@@ -32,18 +45,6 @@
 			color: inherit;
 			text-decoration: none;
 		}
-	h3 { 
-		font-weight:normal;
-		text-transform:uppercase;
-		color: inherit;
-		letter-spacing:0pt;
-		word-spacing:0pt;
-		font-size:19px;
-		text-align:center;
-		font-family:arial black, sans-serif;
-		line-height:1;
-}
-	}
 		
 	/* Change this to whatever font weight/color pairing is most suitable */
 	strong, b
