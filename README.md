@@ -12,7 +12,7 @@ productos basados en juegos de preguntas/respuesta para diversas plataformas. En
 Autores
 =============
 
-* Alejandro Fernández Herrero- [jandroRG] (https://github.com/jandroRG)
+* Alejandro Rico González - [jandroRG] (https://github.com/jandroRG)
 * Pablo Rodríguez Valdés - [valdes86] (https://github.com/valdes86)
 * Daniel Mera López - [danielmera] (https://github.com/danielmera)
 * Cristóbal Solar Fernández- [Cristto] (https://github.com/Cristto)
