@@ -1,10 +1,25 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "TQUESTION")
 public class Pregunta {
 
+	@Id
+	@Column(name = "ID")
+	public Long id;
+	
+	@Column(name = "QUESTION")
 	public String enunciado;
+	@Column(name = "CORRECTANSWER")
 	public String opcion1;
+	@Column(name = "WRONGANSWER1")
 	public String opcion2;
+	@Column(name = "WRONGANSWER2")
 	public String opcion3;
 	
 	public Pregunta(String enunciado, String opcion1, String opcion2, String opcion3) {

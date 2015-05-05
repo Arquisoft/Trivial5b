@@ -2,14 +2,17 @@ package controllers;
 
 import models.Pregunta;
 import play.*;
+import play.db.jpa.Transactional;
+import play.db.jpa.JPA;
 import play.mvc.*;
 
 import views.html.*;
 
 public class Application extends Controller {
 
+	@Transactional
     public static Result index() {
-    	Pregunta p = new Pregunta("¿Que es xxxx?", "a", "b", "c");
+    	Pregunta p = JPA.em().find(Pregunta.class, 2);
     	session("correcta", "2");
     	return ok(index.render(p));
     }
