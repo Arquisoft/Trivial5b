@@ -14,13 +14,16 @@ public class PanelQuesitos extends JPanel {
 	private JButton boton3 = new JButton();
 	private JButton boton4 = new JButton();
 
-	public PanelQuesitos(int opcion) {
+	public PanelQuesitos() {
 		setLayout(new GridLayout(2, 2, 0, 0));
 		this.add(boton1);
 		this.add(boton2);
 		this.add(boton3);
 		this.add(boton4);
 		visibles();
+	}
+	
+	public void setOpcion(int opcion){
 		colorQuesitos(opcion);
 	}
 

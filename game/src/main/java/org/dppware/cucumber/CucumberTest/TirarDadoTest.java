@@ -1,4 +1,4 @@
-package test.java;
+package org.dppware.cucumber.CucumberTest;
 
 import logica.Juego;
 

@@ -29,7 +29,6 @@ public class VentanaVolverATirar extends JDialog {
 	private VentanaTablero tablero;
 
 	public VentanaVolverATirar(Jugada jugada, VentanaTablero tablero) {
-		System.out.println("ADIOS");
 		this.jugada = jugada;
 		this.tablero = tablero;
 		this.setUndecorated(true);
@@ -87,13 +86,13 @@ public class VentanaVolverATirar extends JDialog {
 		btAceptar = new Button("Aceptar");
 		btAceptar.setFont(new java.awt.Font("Candara", 3, 20));
 		btAceptar.setBounds(199, 250, 100, 30);
+		btAceptar.setVisible(true);
 		btAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				jugada.siguienteTurno(true, tablero);
 				v.dispose();
+				jugada.siguienteTurno(true, tablero);
 			}
 		});
-		btAceptar.setVisible(true);
 		return btAceptar;
 	}
 }

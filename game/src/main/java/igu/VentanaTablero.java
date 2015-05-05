@@ -38,10 +38,10 @@ public class VentanaTablero extends JFrame {
 	private Casilla[][] tablero = null;
 	private JButton btDado;
 	private JTextField tfDado;
-	private PanelQuesitos quesitos1;
-	private PanelQuesitos quesitos2;
-	private PanelQuesitos quesitos3;
-	private PanelQuesitos quesitos4;
+	private PanelQuesitos quesitos1 = new PanelQuesitos();
+	private PanelQuesitos quesitos2 = new PanelQuesitos();
+	private PanelQuesitos quesitos3 = new PanelQuesitos();
+	private PanelQuesitos quesitos4 = new PanelQuesitos();
 	private JLabel lbJugador1;
 	private JLabel lbJugador2;
 	private JLabel lbJugador3;
@@ -174,28 +174,28 @@ public class VentanaTablero extends JFrame {
 	}
 
 	private PanelQuesitos getQuesitos1() {
-		quesitos1 = new PanelQuesitos(opcion);
+		quesitos1.setOpcion(opcion);
 		quesitos1.setBounds(834, 54, 108, 108);
 		quesitos1.setVisible(true);
 		return quesitos1;
 	}
 
 	private PanelQuesitos getQuesitos2() {
-		quesitos2 = new PanelQuesitos(opcion);
+		quesitos2.setOpcion(opcion);
 		quesitos2.setBounds(834, 220, 108, 108);
 		quesitos2.setVisible(true);
 		return quesitos2;
 	}
 
 	private PanelQuesitos getQuesitos3() {
-		quesitos3 = new PanelQuesitos(opcion);
+		quesitos3.setOpcion(opcion);
 		quesitos3.setBounds(834, 385, 108, 108);
 		quesitos3.setVisible(true);
 		return quesitos3;
 	}
 
 	private PanelQuesitos getQuesitos4() {
-		quesitos4 = new PanelQuesitos(opcion);
+		quesitos4.setOpcion(opcion);
 		quesitos4.setBounds(834, 531, 108, 108);
 		quesitos4.setVisible(true);
 		return quesitos4;
@@ -251,7 +251,6 @@ public class VentanaTablero extends JFrame {
 		tablero[0][4].addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				new VentanaVolverATirar(jugada, ventana);
-				System.out.println("HOLA");
 			}
 		});
 		tablero[0][4].setDisabledIcon(new ImageIcon(getClass().getResource(
@@ -264,7 +263,6 @@ public class VentanaTablero extends JFrame {
 		tablero[4][0].addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				new VentanaVolverATirar(jugada, ventana);
-				System.out.println("HOLA");
 			}
 		});
 		tablero[4][0].setDisabledIcon(new ImageIcon(getClass().getResource(
@@ -277,7 +275,6 @@ public class VentanaTablero extends JFrame {
 		tablero[4][8].addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				new VentanaVolverATirar(jugada, ventana);
-				System.out.println("HOLA");
 				
 			}
 		});
@@ -291,7 +288,6 @@ public class VentanaTablero extends JFrame {
 		tablero[8][4].addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				new VentanaVolverATirar(jugada, ventana);
-				System.out.println("HOLA");
 			}
 		});
 		tablero[8][4].setDisabledIcon(new ImageIcon(getClass().getResource(
@@ -302,7 +298,6 @@ public class VentanaTablero extends JFrame {
 		tablero[4][4].addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				new VentanaVolverATirar(jugada, ventana);
-				System.out.println("HOLA");
 			}
 		});
 		if (opcion == 1) {

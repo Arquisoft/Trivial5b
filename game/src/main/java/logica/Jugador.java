@@ -8,7 +8,7 @@ public class Jugador {
 
 	private String nombre;
 	private int i, j;
-	private PanelQuesitos panelJugador;
+	private PanelQuesitos panelJugador = new PanelQuesitos();
 	private ArrayList<Boolean> categorias = new ArrayList<Boolean>();
 	private int preguntas;
 
@@ -45,7 +45,7 @@ public class Jugador {
 
 	public void setCategoria(int categoria) {
 		this.categorias.set(categoria - 1, true);
-		this.panelJugador.tickCategoria(categoria);
+		panelJugador.tickCategoria(categoria);
 	}
 
 	public int getPreguntas() {

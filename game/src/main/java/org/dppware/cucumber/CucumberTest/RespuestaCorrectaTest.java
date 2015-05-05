@@ -1,4 +1,4 @@
-package test.java;
+package org.dppware.cucumber.CucumberTest;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;

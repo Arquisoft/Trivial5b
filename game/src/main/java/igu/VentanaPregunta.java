@@ -92,18 +92,19 @@ public class VentanaPregunta extends JDialog {
 		btAtras.setBounds(199, 281, 89, 23);
 		btAtras.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				if (acertada)
+				if (acertada) {
 					jugada.getJugadorActivo().setPregunta(
 							jugada.getJugadorActivo().getPreguntas() + 1);
-				if (jugada.getJugadorActivo().getPreguntas() % 4 == 0) {
-					jugada.getJugadorActivo().setCategoria(categoria);
-				}
-				if (jugada.getJugadorActivo().comprobarGanador()) {
-					VentanaGanador ganador = new VentanaGanador(jugada
-							.getJugadorActivo());
-					tablero.dispose();
-					v.dispose();
-					ganador.setVisible(true);
+					if (jugada.getJugadorActivo().getPreguntas() % 4 == 0) {
+						jugada.getJugadorActivo().setCategoria(categoria);
+					}
+					if (jugada.getJugadorActivo().comprobarGanador()) {
+						VentanaGanador ganador = new VentanaGanador(jugada
+								.getJugadorActivo());
+						tablero.dispose();
+						v.dispose();
+						ganador.setVisible(true);
+					}
 				}
 				jugada.siguienteTurno(acertada, tablero);
 				v.dispose();
