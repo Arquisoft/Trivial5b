@@ -5,10 +5,12 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import java.util.*;
+
 @Entity
 @Table(name = "TQUESTION")
 public class Pregunta {
-
+    
 	@Id
 	@Column(name = "ID")
 	public Long id;
@@ -21,6 +23,11 @@ public class Pregunta {
 	public String opcion2;
 	@Column(name = "WRONGANSWER2")
 	public String opcion3;
+	
+	@Column(name = "CATEGORY")
+	public String categoria;
+	
+	public Pregunta() {}
 	
 	public Pregunta(String enunciado, String opcion1, String opcion2, String opcion3) {
 		this.enunciado = enunciado;
@@ -59,6 +66,19 @@ public class Pregunta {
 
 	public void setOpcion3(String opcion3) {
 		this.opcion3 = opcion3;
+	}
+	
+	public List<Object[]> getRespuestas() {
+	
+	    List<Object[]> respuestas = new ArrayList<Object[]>();
+	    
+	    respuestas.add(new Object[] {true, opcion1});
+	    respuestas.add(new Object[] {false, opcion2});
+	    respuestas.add(new Object[] {false, opcion3});
+
+	    Collections.shuffle(respuestas);
+
+	    return respuestas;
 	}
 
 }

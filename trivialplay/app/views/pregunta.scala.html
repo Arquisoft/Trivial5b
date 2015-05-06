@@ -1,0 +1,23 @@
+@(pregunta: Pregunta)
+
+@main("Welcome to Play") {
+
+    <h1 class="centrado">Pregunta</h1>
+    
+	<div class="centrado">
+        Preguntas acertadas @session.get("acertadas")
+	</div>
+    
+	<div class="panel panel-default contenido">
+	    <div class="panel-heading">
+	        @pregunta.enunciado
+	    </div>
+        <div class="panel-body">
+            <div class="btn-group-vertical" style="width: 100%">
+    			@for(respuesta <- pregunta.getRespuestas()) {
+            		<a class="btn btn-default" href="@routes.Application.responder(respuesta(0).asInstanceOf[Boolean])">@respuesta(1)</a>
+        	    }
+        	</div>
+        </div>
+    </div>
+}

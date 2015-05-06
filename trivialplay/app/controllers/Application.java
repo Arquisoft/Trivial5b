@@ -10,24 +10,58 @@ import views.html.*;
 
 public class Application extends Controller {
 
-	@Transactional
     public static Result index() {
-    	Pregunta p = JPA.em().find(Pregunta.class, 2);
-    	session("correcta", "2");
-    	return ok(index.render(p));
+        return ok(index.render(new String [] {
+            "Geografía",
+            "Deportes",
+            "Arte y Literatura",
+            "Espectáculos",
+            "Ciencias Naturales",
+            "Historia"
+        }));
     }
     
-    public static Result responder(int indice) {
+    public static Result seleccionaCategoria(String categoria) {
+        session("categoria", categoria);
+        session("falladas", "0");
+        session("acertadas", "0");
+        return redirect("/pregunta");
+    }
+
+	@Transactional
+    public static Result pregunta() {
+    	Pregunta p = JPA.em()
+    	    .createQuery("SELECT p FROM Pregunta p WHERE p.categoria LIKE :categoria ORDER BY rand()", Pregunta.class)
+    	    .setParameter("categoria", "%" + session("categoria") + "%")
+    	    .setMaxResults(1)
+    	    .getSingleResult();
+    	return ok(pregunta.render(p));
+    }
+    
+    public static Result responder(boolean correcta) {
     	
-    	int correcta = Integer.parseInt(session("correcta"));
+    	//int correcta = Integer.parseInt(session("correcta"));
     	String strAcertadas = session("acertadas");
+    	String strFalladas = session("falladas");
     	int acertadas = strAcertadas == null ? 0 : Integer.parseInt(strAcertadas);
-    	if (indice == correcta) {
+    	int falladas = strFalladas == null ? 0 : Integer.parseInt(strFalladas);
+    	if (correcta) {
     		acertadas++;
     	}
+    	else {
+    	    falladas++;
+    	}
     	session("acertadas", Integer.toString(acertadas));
+    	session("falladas", Integer.toString(falladas));
     	
-    	return redirect("/");
+    	if (falladas == 3) {
+    	    flash("mensaje", "Juego terminado: Fallaste 3 preguntas");
+    	    session().clear();
+    	    return redirect("/");
+    	}
+    	else {
+    	    return redirect("/pregunta");
+    	}
     }
     
     public static Result tablero() {

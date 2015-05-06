@@ -1,27 +1,17 @@
-@(pregunta: Pregunta)
+@(categorias: Array[String])
 
 @main("Welcome to Play") {
 
-    <h1 align="center">Pregunta</h1>
+    <h1 align="center">Selecciona la categoria</h1>
     
-	<div align="center">
-    <p>Preguntas acertadas @session.get("acertadas")</p>
-	</div>
+    @if(flash.contains("mensaje")) {
+        <div class="alert alert-danger contenido" role="alert">@flash.get("mensaje")</div>
+    }
     
-	<div align="center">
-    <table> 
-			<th>
-				<td>@pregunta.enunciado<td>
-			</th>
-    		<tr>
-				<td><a href="@routes.Application.responder(1)">@pregunta.opcion1</a></td>
-			</tr>
-    		<tr>
-				<td><a href="@routes.Application.responder(2)">@pregunta.opcion2</a></td>
-			</tr>
-    		<tr>
-				<td><a href="@routes.Application.responder(3)">@pregunta.opcion3</a></td>
-			</tr>
+	<div class="btn-group-vertical contenido">
+		@for(categoria <- categorias) {
+	        <a class="btn btn-default" href="@routes.Application.seleccionaCategoria(categoria)">@categoria</a>
+	    }
     </table>
 	</div>
 
