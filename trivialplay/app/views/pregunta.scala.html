@@ -1,22 +1,60 @@
-@(pregunta: Pregunta)
+@()
 
 @main("Welcome to TrivialPlay") {
 
     
 	<div class="centrado">
-        Preguntas acertadas @session.get("acertadas")
+        Preguntas acertadas <span id="acertadas">0</span>
 	</div>
     
 	<div class="panel panel-default contenido">
-	    <div class="panel-heading">
-	        @pregunta.enunciado
+	    <div class="panel-heading" id="enunciado">
 	    </div>
         <div class="panel-body">
-            <div class="btn-group-vertical" style="width: 100%">
-    			@for(respuesta <- pregunta.getRespuestas()) {
-            		<a class="btn btn-default" href="@routes.Application.responder(respuesta(0).asInstanceOf[Boolean])">@respuesta(1)</a>
-        	    }
+            <div class="btn-group-vertical" style="width: 100%" id="respuestas">
         	</div>
         </div>
     </div>
+    
+    <script>
+        
+        $(function () {
+            
+            function seleccionarPregunta() {
+                var correcta = $(this).attr('data-correcta');
+                $.get('@routes.Application.responder()',
+                    {
+                        correcta: correcta
+                    },
+                    function (r) {
+                        if (r.fin) {
+                            document.location = '/categorias';
+                        }
+                        else {
+                            $('#acertadas').text(r.acertadas);
+                            cargarPregunta();
+                        }
+                    });
+            }
+            
+            function cargarPregunta() {
+    
+                $.get('@routes.Application.preguntaAPIRest()', function (p) {
+                    $('#enunciado').text(p.enunciado);
+                    $(p.respuestas).each(function () {
+                        $('#respuestas')
+                            .append(
+                                '<a class="btn btn-default" href="#" data-correcta="' + this.correcta + '">' + this.valor + '</a>');
+                    });
+                    
+                    $('#respuestas a').click(seleccionarPregunta);
+                });
+                
+            }
+            
+            cargarPregunta();
+            
+        });
+        
+    </script>
 }

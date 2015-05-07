@@ -1,0 +1,18 @@
+@(categorias: Array[String])
+
+@main("Welcome to TrivialPlay") {
+
+    <h1 align="center">Selecciona la categoria</h1>
+    
+    @if(flash.contains("mensaje")) {
+        <div class="alert alert-danger contenido" role="alert">@flash.get("mensaje")</div>
+    }
+    
+	<div class="btn-group-vertical contenido">
+		@for(categoria <- categorias) {
+	        <a class="btn btn-default" href="@routes.Application.seleccionaCategoria(categoria)">@categoria</a>
+	    }
+    </table>
+	</div>
+
+}

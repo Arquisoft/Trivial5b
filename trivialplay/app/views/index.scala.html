@@ -1,18 +1,25 @@
-@(categorias: Array[String])
+@()
 
 @main("Welcome to TrivialPlay") {
 
-    <h1 align="center">Selecciona la categoria</h1>
+    <h1 align="center">Login</h1>
     
     @if(flash.contains("mensaje")) {
         <div class="alert alert-danger contenido" role="alert">@flash.get("mensaje")</div>
     }
     
 	<div class="btn-group-vertical contenido">
-		@for(categoria <- categorias) {
-	        <a class="btn btn-default" href="@routes.Application.seleccionaCategoria(categoria)">@categoria</a>
-	    }
-    </table>
+	    <form action="@routes.Application.login()">
+	        <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="nombre" class="form-control" name="nombre" id="nombre" placeholder="Pon tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="clave">Clave</label>
+                <input type="password" class="form-control" name="clave" id="clave" placeholder="Clave">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+	    </form>
 	</div>
 
 }
