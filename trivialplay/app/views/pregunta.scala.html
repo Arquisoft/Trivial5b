@@ -41,6 +41,7 @@
     
                 $.get('@routes.Application.preguntaAPIRest()', function (p) {
                     $('#enunciado').text(p.enunciado);
+                    $('#respuestas').empty();
                     $(p.respuestas).each(function () {
                         $('#respuestas')
                             .append(
